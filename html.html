@@ -4,35 +4,78 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title> Portfolio Project </title>
         <link rel="stylesheet" type="text/css" href = "assets/css/css.css">
-        <nav>
-            <a href = " ">Office Assistant</a>
-            <a href = " ">Web Developement</a>
-            <a href = " ">Design</a>
-        </nav>
     </head>
     <body>
-        <h1>Ayanna Rose Banks</h1>
-            <p >
-                Office Assistant|Web Developement|Design
-            </p>
-            <img  id = "Headshot" src = "assets/img/headshot.JPG">
-            <p >
-                With over six years of experience as an office assistant for a real estate and home ownership counseling agency, she knows how to keep things organized and attention-grabbing.
-                But that's not all.
-                Since September 2022, she has been diving headfirst into the world of web development, graduating from her second web development cohort in late July 2023.
-                Passionate about all things design, Ayanna's creative mind is constantly brewing with fresh ideas.
-                Whether it's creating a sizzling new website or whipping up eye-catching graphics for festival promotions and t-shirts, this designer is ready to make her mark.
-            </p>
-            
-        <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
-        <script src = "script.js"></script>
-    </body>
-    <footer >
-        <img src = "assets/img/icons8-github-brown.png">
-        <img src = "assets/img/icons8-linkedin-brown.png">
-        <img src = "assets/img/icons8-twitter-circled-brown.png">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-md-6">
+                        <nav>
+                            <ul>
+                            <li><a href="#bio">Bio</a></li>
+                            <li><a href="#foot">Portfolio</a></li>
+                            <li><a href="#">Design</a></li>
+                            </ul>
+                        </nav>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="pagetitle">
+                            <h1>Ayanna Rose Banks</h1>
+                            <p>Office Assistant | Web Development | Design</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="content"> 
+                            <div class="col-md-6">
+                                <img id="Headshot" src="assets/img/headshot.JPG" alt="Headshot">
+                            </div>
+                            <div class="col-md-6">
+                                <p id="bio">
+                                    With over six years of experience as an office assistant for a real estate and home ownership counseling agency, she knows how to keep things organized and attention-grabbing.
+                                    But that's not all.
+                                    Since September 2022, she has been diving headfirst into the world of web development, graduating from her second web development cohort in late July 2023.
+                                    Passionate about all things design, Ayanna's creative mind is constantly brewing with fresh ideas.
+                                    Whether it's creating a sizzling new website or whipping up eye-catching graphics for festival promotions and t-shirts, this designer is ready to make her mark.
+                                </p>
+                            </div>
+                            <br>
+
+                        </div>
+                        </div>
+                        <h3 class="projects"> Projects: </h3>
+                       <br>
+                        <div class="row">
+                            <h3>Skills</h3>
+                            <div class="skills">
+                                <img src="./assets/img/icons8-html-48.png">
+                                <img src="./assets/img/icons8-css-48.png">
+                                <img src="./assets/img/icons8-javascript-48.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body> 
+    <footer id="foot">
+        <ruby>
+            <rb><a href = "https://github.com/arbanks77"><img src = "assets/img/icons8-github-brown.png"></a></rb>
+            <rp>（</rp><rt>Repositories</rt><rp>）</rp>
+          </ruby>
+          <ruby>
+            <rb><a href = "https://www.linkedin.com/in/ayanna-rose-banks/"><img src = "assets/img/icons8-linkedin-brown.png"></a>
+            </rb>
+            <rp>（</rp><rt><a href="./assets/img/Copy of Resume 2023.pdf">resume</a></rt><rp>）</rp>
+          </ruby>
+          <ruby>
+            <rb><a href = "https://twitter.com/asrosedevelopes"><img src = "assets/img/icons8-twitter-circled-brown.png"></a>
+            </rb>
+            <rp>（</rp><rt>Social Media</rt><rp>）</rp>
+          </ruby>
     </footer>
 </html>
